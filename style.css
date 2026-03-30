@@ -1,0 +1,100 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+h1{
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    height: 5rem;
+    line-height: 5rem;
+    text-align:center;
+}
+.choice{
+    height:150px;
+    width:150px;
+    border-radius:50%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    border-color:black;
+}
+
+.choice:hover{
+    opacity:0.8;
+    cursor:pointer;
+    border-width:20px;
+    border-width:1.2rem;
+}
+img{
+    height:8rem;
+    width:8rem;
+    object-fit: cover;
+    border-radius:50%;
+    border-color:black;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:3rem;
+    gap:3rem;
+    margin-top:5rem;
+}
+
+.score-board{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    gap:3rem;
+    margin-top:3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height:7rem;
+    font-size: 3rem;;
+}
+.msg-container{
+    margin-top:3rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#msg{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    background-color:rgb(11, 11, 11);
+    height:3rem;
+    line-height:3rem;
+    color:white;
+    font-size:larger;
+    width:9rem;
+    text-align:center;
+    border-radius:1.1rem;
+}
+#msg:hover{
+    background-color: rgb(202, 205, 207);
+    opacity: 0.9;
+    color:rgb(255, 255, 255);
+}
+.reset-button{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:2.02rem;
+}
+.reset-button1{
+    height:3.2rem;
+    width:5rem;
+    background-color:black;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    text-align: center;
+    border-radius:1.1rem;
+    border-color: black;
+}
+.reset-button1:hover{
+    background-color: rgb(202, 205, 207);
+    opacity: 0.9;
+    color:black;
+    border-color: rgb(202, 205, 207);
+}
